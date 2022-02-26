@@ -11,7 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ExamServiceTest {
 
-/*
     ExamService examService;
 
     @BeforeEach
@@ -32,19 +31,16 @@ class ExamServiceTest {
     @Test
     void readFromWrongPath() {
         IllegalArgumentException iae = assertThrows(IllegalArgumentException.class, () -> examService.readFromFIle(Path.of("src/main/java/data.txt")));
-        assertEquals("Cannot read file: src\\main\\java\\data.txt", iae.getMessage());
+        //test expected modified due to linux usage
+        assertEquals("Cannot read file: src/main/java/data.txt", iae.getMessage());
     }
 
     @Test
     void testFindPeopleFailed() {
         assertEquals(List.of("Jack Doe", "Jack Smith", "Jill Doe"), examService.findPeopleFailed());
     }
-
     @Test
     void findBestPersonTest() {
         assertEquals("Johnathan Hill", examService.findBestPerson());
     }
-*/
-
-
 }
