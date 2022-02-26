@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ApartmentTest {
 
 
-/*    @Test
+    @Test
     void createApartment(){
         Apartment apartment = new Apartment("Paris",54,BathRoomType.ONE_PER_ROOM, List.of("WIFI","Play Station"));
 
@@ -17,6 +17,6 @@ class ApartmentTest {
         assertEquals(54, apartment.getSize());
         assertEquals(BathRoomType.ONE_PER_ROOM, apartment.getBathRoomType());
         assertEquals(List.of("WIFI","Play Station"), apartment.getExtras());
-    }*/
+    }
 
 }
