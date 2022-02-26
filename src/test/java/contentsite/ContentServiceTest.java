@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ContentServiceTest {
 
-/*
     ContentService contentService;
 
     @BeforeEach
@@ -125,6 +124,6 @@ class ContentServiceTest {
 
         IllegalStateException ise = assertThrows(IllegalStateException.class, () -> contentService.clickOnContent(user, content));
         assertEquals("Upgrade for Premium to watch this content!", ise.getMessage());
-    }*/
+    }
 
 }

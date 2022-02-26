@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class VideoTest {
 
-/*
     @Test
     void createVideo(){
         Content video = new Video("Java Language",16);
@@ -34,6 +33,5 @@ class VideoTest {
 
         assertEquals(0, video.clickedBy().size());
     }
-*/
 
 }

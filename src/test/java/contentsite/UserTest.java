@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class UserTest {
 
-/*
     @Test
     void createUser(){
         User user = new User("username","1234");
@@ -45,6 +44,5 @@ class UserTest {
         assertTrue(user.isPremiumMember());
 
     }
-*/
 
 }
